@@ -1,5 +1,5 @@
 `include "defines.svh"
-interface apb_interface (input bit PCLK, input bit PRESETn);
+interface apb_switch_interface (input bit PCLK, input bit PRESETn);
 
     // Master Signals (Driven by Testbench)
     logic PSEL;
