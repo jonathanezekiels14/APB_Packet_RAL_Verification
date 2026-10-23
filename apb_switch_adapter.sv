@@ -5,6 +5,8 @@
 
 `include "defines.svh"
 
+
+
 class apb_switch_adapter extends uvm_reg_adapter;
     `uvm_object_utils(apb_switch_adapter)
 
